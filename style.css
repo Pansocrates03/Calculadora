@@ -1,0 +1,45 @@
+button {
+    width: 2cm;
+    height: 2cm;
+    background-color: black;
+    color: white;
+    border-color: white;
+    font-size: x-large;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+button:active {
+    background-color: aqua;
+}
+
+input {
+    height: 1cm;
+}
+
+table {
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nonum {
+    color: orange
+}
+
+.equal {
+    background-color: orange;
+    color: black;
+}
+
+textarea {
+    width: 98%;
+    height: 2cm;
+    text-align: left;
+    font-size: xx-large;
+}
